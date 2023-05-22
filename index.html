@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body builders reloades</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Fitness</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Trainers.html">Trainers</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Contact Us.html">Contacts</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentBox">
+                <h2>Build Perfect Body <br> With Clean Mind</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ratione necessitatibus, minus quasi ex nulla dignissimos 
+                    iusto, aliquam blanditiis esse beatae mollitia. Blanditiis 
+                    aspernatur aliquam alias, impedit fuga ut aperiam provident!
+                </p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    <div class="counter-js">
+        <div class="count">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <div class="number" id="number1">2000</div>
+            <div class="underline"></div>
+            <div class="counter-text">Happy clients</div>
+        </div>
+        <div class="count">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <div class="number" id="number2">1000</div>
+            <div class="underline"></div>
+            <div class="counter-text">Worked Hours</div>
+        </div>
+        <div class="count">
+            <i class="fa fa-gift" aria-hidden="true"></i>
+            <div class="number" id="number3">1300</div>
+            <div class="underline"></div>
+            <div class="counter-text">Won Medals</div>
+        </div>
+    </div>
+    <div class="workouts">
+        <h2>Workouts</h2>
+        <p>Our exclusive training session just for you. Create your style</p>
+        <div class="session1">
+            <div class="card">
+                <img src="imgs/builder.jfif" alt="">
+                <div class="activity">
+                    <h4>Beginner level</h4>
+                    <h3>Basic Weight lifting</h3>
+                    <p>If you have never used the free weights section of the gym (or are seriously out of practice), 
+                        basic exercises will ease you into strengthening your muscles with free weights.
+                    </p>
+                    <h6>View Workouts</h6>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="imgs/chest.jfif" alt="">
+                <div class="activity">
+                    <h4>Intermediate level</h4>
+                    <h3>Stretching Exercises</h3>
+                    <p>Obviously, if you are working out, stretching can do your body wonders.
+                         After exercising, your muscles may feel tight.
+                    </p>
+                    <h6>View Workouts</h6>
+                </div>
+            </div>
+        </div>
+        <div class="session2">
+            <div class="card">
+                <img src="imgs/inter.jfif" alt="">
+                <div class="activity">
+                    <h4>Advanced level</h4>
+                    <h3>Full Body Workouts</h3>
+                    <p>
+                        This is the point were we work you chest, legs, shoulders, Abs, Hands, biseps, triseps inorder to keep 
+                        your body fit and to remove the extra fats that may have accumulated in the body
+                    </p>
+                    <h6>View Workouts</h6>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="imgs/yoga.jfif" alt="">
+                <div class="activity">
+                    <h4>More Advanced level</h4>
+                    <h3>Yoga lessons</h3>
+                    <p>
+                        Besides strengthening your heart and lungs, aerobic exercise can help lower your cholesterol, reduce your risk of type 2 diabetes,
+                         improve your immune function, and lower your blood pressure.
+                    </p>
+                    <h6>View Workouts</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimony">
+        <h2>Testimonies</h2>
+        <p>What our client say about our gym</p>
+        <div class="text-box">
+            <div class="text-msg">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>The lessons i got helped me to bounce back and get to the top of my physical 
+                    shape again! I'm so grateful for all the help he provided!
+                </p>
+                <h3>Judy Alison</h3>
+            </div>
+            <div class="text-msg">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>The lessons i got helped me to bounce back and get to the top of my physical 
+                    shape again! I'm so grateful for all the help he provided!
+                </p>
+                <h3>Jackson Puttin</h3>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            Copyright &copy; 2021 <span>Fitness</span>. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript"> 
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+        // this counter functions
+        setInterval(clients, 10);
+        setInterval(hours, 10);
+        setInterval(Medals, 10);
+        let counter1 = 1;
+        let counter2 = 1;
+        let counter3 = 1;
+
+        function clients(){
+            if(counter1 <= 2000){
+                counter1++;
+                document.querySelector('#number1').innerHTML = counter1;
+            }
+        }
+        function hours(){
+            if(counter2 <= 1000){
+                counter2++;
+                document.querySelector('#number2').innerHTML = counter2;
+            }
+        }
+        function Medals(){
+            if(counter3 <= 1300){
+                counter3++;
+                document.querySelector('#number3').innerHTML = counter3;
+            }
+        }
+       
+    </script>
+</body>
+</html>

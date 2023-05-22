@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Trainers</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="trainer-section">
+        <header>
+            <a href="#" class="logo">Fitness</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Trainers.html">Trainers</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Contact Us.html">Contacts</a></li>
+            </ul>
+        </header>
+        <div class="trainer">
+            <h1>Our Trainers</h1>
+            <a href="Contact Us.html">Enroll for Free</a>
+        </div>
+        <div class="drop">
+            <a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        </div>
+    </section>
+    <div class="our-trainers">
+        <h2>Workout With Our amazing Trainers</h2>
+        <p>Welcome to Fitness gym and have yourself trained by our coaches who are will to take you tho the next level
+            and as well we are going to grow together.
+        </p>
+        <div class="trainer-img">
+            <div class="trainer-card">
+                <img src="imgs/trainer1.jfif" alt="">
+                <h2>Sofie Denis</h2>
+                <p>Fitness Trainer</p>
+            </div>
+            <div class="trainer-card">
+                <img src="imgs/trainer2.jfif" alt="">
+                <h2>Maya kasandra</h2>
+                <p>Yoga Trainer</p>
+            </div>
+            <div class="trainer-card">
+                <img src="imgs/trainer3.jfif" alt="">
+                <h2>Elle Vans</h2>
+                <p>Yoga Trainer</p>
+            </div>
+            <div class="trainer-card">
+                <img src="imgs/trainer4.jfif" alt="">
+                <h2>Micke Oliver</h2>
+                <p>Fitness Trainer</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            Copyright &copy; 2021 <span>Fitness</span>. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript"> 
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

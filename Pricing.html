@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our simple prices</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="price-section">
+        <header>
+            <a href="#" class="logo">Fitness</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Trainers.html">Trainers</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Contact Us.html">Contacts</a></li>
+            </ul>
+        </header>
+        <div class="pricing">
+            <h1>Pricing</h1>
+            <a href="Contact Us.html">Enroll for Free</a>
+        </div>
+    </section>
+    <div class="our-price">
+        <h2>Our Price List</h2>
+        <p class="demo">We offer various training programs at a competitive price.
+             Choose the plan that fits your requirements and join us today!
+        </p>
+        <div class="price-box">
+            <div class="card-price">
+                <h4>1 Month Membership</h4>
+                <h3>Ksh 3000</h3>
+                <p>
+                    Free gym membership
+                </p>
+                <p>
+                    Diet plan
+                </p> 
+                <p>
+                    Over 25 additional classes
+                </p> 
+                <p>
+                    Personal training
+                </p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="card-price">
+                <h4>3 Month Membership</h4>
+                <h3>Ksh 6000</h3>
+                <p>
+                    Free gym membership
+                </p>
+                <p>
+                    Diet plan
+                </p> 
+                <p>
+                    Over 25 additional classes
+                </p> 
+                <p>
+                    Personal training
+                </p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="card-price">
+                <h4>6 Month Membership</h4>
+                <h3>Ksh 12000</h3>
+                <p>
+                    Free gym membership
+                </p>
+                <p>
+                    Diet plan
+                </p> 
+                <p>
+                    Over 25 additional classes
+                </p> 
+                <p>
+                    Personal training
+                </p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="card-price">
+                <h4>1 Year Membership</h4>
+                <h3>Ksh 24000</h3>
+                <p>
+                    Free gym membership
+                </p>
+                <p>
+                    Diet plan
+                </p> 
+                <p>
+                    Over 25 additional classes
+                </p> 
+                <p>
+                    Personal training
+                </p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            Copyright &copy; 2021 <span>Fitness</span>. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript"> 
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

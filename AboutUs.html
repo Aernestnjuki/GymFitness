@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Body Builders</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="aboutus-section">
+        <header>
+            <a href="#" class="logo">Fitness</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Trainers.html">Trainers</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Contact Us.html">Contacts</a></li>
+            </ul>
+        </header>
+        <div class="about">
+            <h1>About us</h1>
+            <a href="Contact Us.html">Enroll for Free</a>
+        </div>
+    </section>
+
+    <div class="about-section">
+        <h2>About Fitness Gym</h2>
+        <p class="para">Here is all you need to know of our gym and what to expext</p>
+        <div class="about-content">
+            <div class="about-box">
+                <p>
+                    Fitness Gym is the best place to choose when you want to <span>lose some weigth, increase body strength,
+                    increase stamina</span> or even when you are looking to get that desired <span>prefect body shape</span>.
+                    We have got all the equipments to help you attain that which you desire also our trainers are the best
+                    and will do anything to get you there.
+                </p>
+                <p>
+                    We offer lesson to anyone which means even your kid, girlfriend or even wife can also train together with you.
+                    Our payments are favarable so just just have to enroll and get the best. What we do as fitness gym is that
+                    we offer the weight lifting lessons which are ment for the chest,shoulders, hands and legs also we do the 
+                    physical workouts with do not have to do with weights just to build more strength.
+                </p>
+            </div>
+            <div class="about-table">
+                <table>
+                    <caption>Fitness Gym sessions</caption>
+                    <tr>
+                        <th rowspan="2">Days</th>
+                        <th colspan="3">Workout Time</th>
+                    </tr>
+                    <tr>
+                        <td>Morning(5am - 11am)</td>
+                        <td>Afternoon(12pm - 5pm)</td>
+                        <td>Evening(6pm - 10pm)</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Shoulders</td>
+                        <td>Legs</td>
+                        <td>Chest</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Butt</td>
+                        <td>General</td>
+                        <td>Chest</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Yoga</td>
+                        <td>Legs</td>
+                        <td>Yoga</td>
+                    </tr>
+                    <tr>
+                        <td>Thrusday</td>
+                        <td>Back & Shoulders</td>
+                        <td>Abs</td>
+                        <td>Triseps</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Chest</td>
+                        <td>biseps</td>
+                        <td>General</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Yoga</td>
+                        <td>Abs</td>
+                        <td>Ropes</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipments">
+        <h2>Here are some of our equipments</h2>
+        <div class="equipment-box">
+            <div class="equipment-img">
+                <img src="imgs/gym1.jfif" alt="">
+                <a href="#">View More</a>
+            </div>
+            <div class="equipment-img">
+                <img src="imgs/gym2.jfif" alt="">
+                <a href="#">View More</a>
+            </div>
+            <div class="equipment-img">
+                <img src="imgs/gym3.jfif" alt="">
+                <a href="#">View More</a>
+            </div>
+            <div class="equipment-img">
+                <img src="imgs/gym4.jfif" alt="">
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            Copyright &copy; 2021 <span>Fitness</span>. All Rights Reserved.
+        </div>
+    </div>
+    <script type="text/javascript"> 
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
